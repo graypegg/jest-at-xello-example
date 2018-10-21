@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Thing Thing.sum should take together two numbers and return their sum 1`] = `
+<div>
+  7
+</div>
+`;
