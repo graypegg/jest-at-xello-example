@@ -8,5 +8,11 @@ export function sum (
   firstNumber,
   secondNumber
 ) {
-  return firstNumber + secondNumber
+  const element = document.createElement('div')
+  element.appendChild(
+    document.createTextNode(
+      firstNumber + secondNumber
+    )
+  )
+  return element
 }
